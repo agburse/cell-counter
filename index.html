@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#1b5e20">
+  <title>Cell Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section id="living" class="half living" aria-label="Tap to count a living cell">
+      <span class="label">Living</span>
+      <span class="count" id="living-count">0</span>
+    </section>
+    <section id="dead" class="half dead" aria-label="Tap to count a dead cell">
+      <span class="label">Dead</span>
+      <span class="count" id="dead-count">0</span>
+    </section>
+    <div class="bar">
+      <span id="summary">Total 0</span>
+      <button id="reset" type="button">Reset</button>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
