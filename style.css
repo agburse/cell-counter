@@ -43,27 +43,45 @@ main {
 }
 
 .living {
-  background: #1b5e20;
+  background: #ffffff;
   padding-top: env(safe-area-inset-top);
 }
 
 .dead {
-  background: #7f1d1d;
+  background: #1e0491;
   padding-bottom: env(safe-area-inset-bottom);
 }
 
-.label {
+.label_liv {
   font-size: 1.1rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   opacity: 0.8;
+  color: #1e0491;
 }
 
-.count {
+.label_dead {
+  font-size: 1.1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.count_liv {
   font-size: clamp(4rem, 22vw, 9rem);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   line-height: 1.1;
+  color: #1e0491;
+}
+
+.count_dead {
+  font-size: clamp(4rem, 22vw, 9rem);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+  color: #ffffff;
 }
 
 /* Small strip on the boundary between the halves */
