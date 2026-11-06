@@ -31,9 +31,6 @@ function save() {
 function render() {
   els.livingCount.textContent = counts.living;
   els.deadCount.textContent = counts.dead;
-  const total = counts.living + counts.dead;
-  const viability = total ? Math.round((counts.living / total) * 100) : 0;
-  els.summary.textContent = `Total ${total} · ${viability}% living`;
 }
 
 // iOS Safari has no Vibration API, but toggling a native switch control
