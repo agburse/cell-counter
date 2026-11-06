@@ -52,6 +52,7 @@ function haptic() {
   } else {
     hapticSwitch.click();
   }
+  console.log("!");
 }
 
 function count(kind) {
