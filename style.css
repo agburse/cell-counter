@@ -92,20 +92,14 @@ main {
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.3rem 0.4rem 0.3rem 0.9rem;
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.55);
-  font-size: 0.85rem;
-  white-space: nowrap;
 }
 
 #reset {
   font: inherit;
-  font-size: 0.8rem;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  font-size: 0.9rem;
+  color: #ffffff;
+  background: #942222;
+  border: 1px solid #942222;
   border-radius: 999px;
   padding: 0.3rem 0.8rem;
   cursor: pointer;
